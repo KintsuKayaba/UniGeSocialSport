@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T16:16:18.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="lVMzSv4zLYXY7EcszvRj" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T16:21:24.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="n2RtPDQNMhStpeiBlHxe" version="24.2.2" type="github">
   <diagram name="Pagina-1" id="-63KWE2EBDfRpYx0gYa-">
-    <mxGraphModel dx="2387" dy="638" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2641" dy="774" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -732,15 +732,6 @@
             <mxPoint x="224" y="336" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LlNJrqZkrt-LbO2q0fCe-2" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="742" y="504" width="88" height="97" as="geometry" />
-        </mxCell>
-        <mxCell id="p33J7JNSHubDcJJtzhHf-26" value="un utente semplice" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="LlNJrqZkrt-LbO2q0fCe-2" vertex="1">
-          <mxGeometry x="29" y="37" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p33J7JNSHubDcJJtzhHf-64" value="Lui è Giacomo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="LlNJrqZkrt-LbO2q0fCe-2" vertex="1">
-          <mxGeometry width="88" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Nxy0P4lHTAv6eegYPjBZ-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;ISCRIZIONE&lt;/font&gt;&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-192" y="352" width="112" height="56" as="geometry" />
         </mxCell>
@@ -998,6 +989,21 @@
         </mxCell>
         <mxCell id="Nxy0P4lHTAv6eegYPjBZ-89" value="(T,E)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-520" y="1288" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nxy0P4lHTAv6eegYPjBZ-91" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="688" y="504" width="196" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="LlNJrqZkrt-LbO2q0fCe-2" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="Nxy0P4lHTAv6eegYPjBZ-91" vertex="1" connectable="0">
+          <mxGeometry x="54" width="88" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="p33J7JNSHubDcJJtzhHf-26" value="un utente semplice" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="LlNJrqZkrt-LbO2q0fCe-2" vertex="1">
+          <mxGeometry x="29" y="37" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p33J7JNSHubDcJJtzhHf-64" value="Lui è Giacomo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="LlNJrqZkrt-LbO2q0fCe-2" vertex="1">
+          <mxGeometry width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nxy0P4lHTAv6eegYPjBZ-90" value="Se vuoi aiutarlo a diventare un utente premium come i suoi amici, dona &lt;a href=&quot;https://www.paypal.me/leonelvassallo&quot;&gt;qui&lt;/a&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="Nxy0P4lHTAv6eegYPjBZ-91">
+          <mxGeometry y="133" width="196" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
