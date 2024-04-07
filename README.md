@@ -1,7 +1,7 @@
 UnigeSocialSport
 
 
-Schema EER: [clicca qui](https://raw.githack.com/KintsuKayaba/Modello-EER-BD/main/Project-EER.drawio.html)
+Schema EER: [clicca qui](https://raw.githack.com/KintsuKayaba/Modello-EER-BD/main/Link-for-project.drawio.html)
 
 
 Gerarchie di generalizzazione
