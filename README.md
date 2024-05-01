@@ -1,8 +1,6 @@
 UnigeSocialSport
 
-
 Schema EER: [clicca qui](https://raw.githack.com/KintsuKayaba/Modello-EER-BD/main/Link-for-project.drawio.html)
-
 
 Gerarchie di generalizzazione
 
@@ -13,10 +11,6 @@ La seconda consiste invece in Torneo, il quale è stato scisso in Torneo ad Elim
 Squadre
 
 Gli attributi nome e colore_maglia dell’entità Squadra rappresentano la chiave primaria della relativa entità in quanto il programma vieterà la creazione di squadre uguali. Il nome è spesso il principale identificatore di una squadra e il colore della maglia è un altro elemento distintivo che aiuta a differenziare una squadra dalle altre.
-
-
-
-
 
 Ruolo
 
@@ -33,7 +27,11 @@ Poiché il numero di squadre che partecipano al torneo può variare da zero a un
 Dominio Attributi
 
 Stato = booleano | accettato / non accettato
+
 Completa = booleano | completa / non completa
+
 A_squadre = booleano | a squadre / singolo
+
 Scadenza = date | limite in cui un utente può disiscriversi dalla squadra, dopo il limite deve indicare un sostituto
+
 Affidabile = booleano | affidabile / non affidabile
