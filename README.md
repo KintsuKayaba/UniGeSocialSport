@@ -29,3 +29,11 @@ L’entità torneo è collegata tramite 2 relazioni, entrambe con cardinalità (
 Quando si crea un torneo, all'inizio potremmo non sapere quante squadre parteciperanno. Quindi abbiamo deciso di consentire un numero variabile di squadre partecipanti, che potrebbe essere da zero a quante se ne presentano (0,n).
 -	“Forma”
 Poiché il numero di squadre che partecipano al torneo può variare da zero a un numero indefinito, diventa complicato stabilire con certezza quanti eventi sportivi si svolgeranno. Questa flessibilità può influenzare direttamente la pianificazione e l'organizzazione degli eventi nel corso del torneo.
+
+Dominio Attributi
+
+Stato = booleano | accettato / non accettato
+Completa = booleano | completa / non completa
+A_squadre = booleano | a squadre / singolo
+Scadenza = date | limite in cui un utente può disiscriversi dalla squadra, dopo il limite deve indicare un sostituto
+Affidabile = booleano | affidabile / non affidabile
