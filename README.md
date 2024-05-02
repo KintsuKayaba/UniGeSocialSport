@@ -28,6 +28,8 @@ Poiché il numero di squadre che partecipano al torneo può variare da zero a un
 
 Stato = booleano | accettato / non accettato
 
+Stato (evento sportivo) = booleano | aperto / non aperto
+
 Completa = booleano | completa / non completa
 
 A_squadre = booleano | a squadre / singolo
