@@ -40,5 +40,5 @@ Affidabile = booleano | affidabile / non affidabile
 
 **Candidatura**
 
-Solo chi ha un account premium e ha registrato la squadra può decidere se accettare o rifiutare una candidatura. Lo stesso vale per l’iscrizione agli eventi sportivi.
+Solo chi ha un account premium e ha registrato la squadra può decidere se accettare o rifiutare una candidatura. Lo stesso vale per l’iscrizione agli eventi sportivi. Inoltre, chi possiede un account premium, ha la possibilità di inserire manualmente i componenti di una squadra.
 
