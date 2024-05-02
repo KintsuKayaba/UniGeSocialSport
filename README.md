@@ -35,3 +35,8 @@ A_squadre = booleano | a squadre / singolo
 Scadenza = date | limite in cui un utente può disiscriversi dalla squadra, dopo il limite deve indicare un sostituto
 
 Affidabile = booleano | affidabile / non affidabile
+
+**Candidatura**
+
+Solo chi ha un account premium e ha registrato la squadra può decidere se accettare o rifiutare una candidatura. Lo stesso vale per l’iscrizione agli eventi sportivi.
+
