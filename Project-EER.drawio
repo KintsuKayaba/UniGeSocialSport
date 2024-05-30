@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T14:08:17.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="Rcjm8I2-f3o7YHX051-P" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T14:11:11.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="ogugjwEhZaRIkUXfPL_b" version="24.4.9" type="github">
   <diagram name="Pagina-1" id="-63KWE2EBDfRpYx0gYa-">
-    <mxGraphModel dx="3152" dy="1234" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2945" dy="1123" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1132,7 +1132,7 @@
         <mxCell id="8fGbZ2xaLBgnwEw3CGJV-2" value="&lt;b&gt;REPORT_P_E&lt;/b&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="124" y="189" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8fGbZ2xaLBgnwEw3CGJV-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;RIFERITO_A&lt;/font&gt;&lt;/b&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="8fGbZ2xaLBgnwEw3CGJV-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;RIFERITO_A&lt;/b&gt;&lt;/font&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-358.45" y="308" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8fGbZ2xaLBgnwEw3CGJV-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8fGbZ2xaLBgnwEw3CGJV-1" target="8fGbZ2xaLBgnwEw3CGJV-2">
