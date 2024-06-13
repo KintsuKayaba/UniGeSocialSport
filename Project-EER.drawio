@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T14:15:50.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="9pwF6Q3G7TpW2UQrKh0K" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T15:58:24.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="hOmCL8Hlg7EqNOg31N9P" version="24.5.4" type="github">
   <diagram name="Pagina-1" id="-63KWE2EBDfRpYx0gYa-">
     <mxGraphModel dx="3674" dy="1478" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
         <mxCell id="2d3XpBuDdh4GmcxXIJYH-43" value="data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-504" y="485.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2d3XpBuDdh4GmcxXIJYH-44" value="stato" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="2d3XpBuDdh4GmcxXIJYH-44" value="aperto" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-561" y="486" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2d3XpBuDdh4GmcxXIJYH-45" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;IMPIANTO&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=east;" parent="1" vertex="1">
@@ -310,7 +310,7 @@
         <mxCell id="p33J7JNSHubDcJJtzhHf-61" value="id_esito" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="716" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nxy0P4lHTAv6eegYPjBZ-17" value="stato" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Nxy0P4lHTAv6eegYPjBZ-17" value="accettato_iscr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-35" y="437.25" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nxy0P4lHTAv6eegYPjBZ-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;PARTECIPA&lt;/font&gt;&lt;/b&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -847,7 +847,7 @@
         <mxCell id="_PPmYWHMmeneKtp0pq9--55" value="ruolo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="56" y="796" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PPmYWHMmeneKtp0pq9--57" value="stato" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_PPmYWHMmeneKtp0pq9--57" value="accettato_cand" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="52" y="941" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_PPmYWHMmeneKtp0pq9--58" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" parent="1" vertex="1">
