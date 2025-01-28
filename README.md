@@ -1,6 +1,6 @@
 **UnigeSocialSport**
 
-Schema EER: [clicca qui](https://raw.githack.com/KintsuKayaba/Modello-EER-BD/refs/heads/main/Diagramma%20senza%20titolo.drawio.html)
+Schema EER: [clicca qui](https://raw.githack.com/KintsuKayaba/Modello-EER-BD/refs/heads/main/Link-UniGeSocialSport.html)
 
 **Gerarchie di generalizzazione**
 
