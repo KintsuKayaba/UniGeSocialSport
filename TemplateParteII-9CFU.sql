@@ -1,10 +1,3 @@
---- Progetto BD 23-24 (9 o 12 CFU): 12
---- Numero gruppo: 19
---- Nomi e matricole componenti: Fabio Benjamine Roncallo 5601246, Gabriele Bestoso 5456903, Leonel Vassallo 5707979
-
---- PARTE 2 
-/* il file deve essere file SQL ... cio� formato solo testo e apribili ed eseguibili in pgAdmin */
-
 /*************************************************************************************************************************************************************************/
 --1a. Schema
 /*************************************************************************************************************************************************************************/ 
