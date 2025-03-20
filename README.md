@@ -1,44 +1,65 @@
-**UnigeSocialSport**
+# UniGeSocialSport
+
+UniGeSocialSport è un'applicazione sviluppata per promuovere e gestire attività sportive sociali all'interno dell'Università di Genova. L'applicazione è progettata per facilitare l'organizzazione di eventi sportivi, la gestione degli utenti e la prenotazione delle strutture sportive.
+
+## Schema EER
 
 Schema EER: [clicca qui](https://app.diagrams.net/?viewer=1&url=https://raw.githubusercontent.com/KintsuKayaba/UniGeSocialSport/refs/heads/main/UniGeSocialSport.drawio)
 
-**Gerarchie di generalizzazione**
+### Gerarchie di generalizzazione
 
-In questo modello EER possiamo trovare due gerarchie, entrambe totali ed esclusive.
-La prima consiste in Utente, che viene suddiviso in Utente Premium ed Utente Semplice, nonché i soli due possibili utilizzatori del nostro programma.
-La seconda consiste invece in Torneo, il quale è stato scisso in Torneo ad Eliminazione Diretta, Torneo a Gironi e Torneo Misto.
+In questo modello EER possiamo trovare due gerarchie, entrambe totali ed esclusive:
+- **Utente**: suddiviso in Utente Premium ed Utente Semplice.
+- **Torneo**: suddiviso in Torneo ad Eliminazione Diretta, Torneo a Gironi e Torneo Misto.
 
-**Squadre**
+## Funzionalità
 
-Gli attributi nome e colore_maglia dell’entità Squadra rappresentano la chiave primaria della relativa entità in quanto il programma vieterà la creazione di squadre uguali. Il nome è spesso il principale identificatore di una squadra e il colore della maglia è un altro elemento distintivo che aiuta a differenziare una squadra dalle altre.
+### Utenti
 
-**Ruolo**
+- **Registrazione e Autenticazione**: Gli utenti possono registrarsi e autenticarsi utilizzando le loro credenziali.
+- **Gestione Profilo**: Gli utenti possono aggiornare le informazioni del proprio profilo, inclusi i dettagli personali e le preferenze sportive.
+- **Tipi di Utenti**: Esistono due tipi di utenti, Premium e Semplice, con diverse funzionalità disponibili.
 
-Nelle relazioni 'SI_ISCRIVE' e 'SI_CANDIDA', l'attributo 'ruolo' assume una duplice funzione: da un lato, identifica il ruolo che un utente intende ricoprire all'interno delle dinamiche sportive, mentre dall'altro, individua anche il ruolo di arbitro.
+### Eventi Sportivi
 
-**Torneo**
+- **Creazione Eventi**: Gli utenti possono creare eventi sportivi specificando data, categoria, impianto e organizzatore.
+- **Gestione Eventi**: Gli eventi possono essere aperti o chiusi e possono avere esiti specificati.
+- **Partecipazione agli Eventi**: Gli utenti possono iscriversi agli eventi sportivi e specificare il ruolo che intendono ricoprire.
+- **Valutazione Eventi**: Gli eventi possono essere valutati, e le valutazioni possono essere riferite a specifici eventi sportivi.
 
-L’entità torneo è collegata tramite 2 relazioni, entrambe con cardinalità (0,n).
--	“Partecipa”
-Quando si crea un torneo, all'inizio potremmo non sapere quante squadre parteciperanno. Quindi abbiamo deciso di consentire un numero variabile di squadre partecipanti, che potrebbe essere da zero a quante se ne presentano (0,n).
--	“Forma”
-Poiché il numero di squadre che partecipano al torneo può variare da zero a un numero indefinito, diventa complicato stabilire con certezza quanti eventi sportivi si svolgeranno. Questa flessibilità può influenzare direttamente la pianificazione e l'organizzazione degli eventi nel corso del torneo.
+### Tornei
 
-**Dominio Attributi**
+- **Creazione Tornei**: Gli utenti possono creare tornei specificando descrizioni, sponsor, premi, restrizioni e modalità.
+- **Tipi di Tornei**: I tornei possono essere ad eliminazione diretta, misti o a gironi.
+- **Partecipazione ai Tornei**: Le squadre possono partecipare ai tornei, e gli utenti possono registrarsi come membri delle squadre.
 
-Stato = booleano | accettato / non accettato
+### Squadre
 
-Stato (evento sportivo) = booleano | aperto / non aperto
+- **Creazione Squadre**: Gli utenti possono creare squadre specificando nome, colore maglia, numero di partecipanti e descrizione.
+- **Gestione Squadre**: Gli utenti possono gestire le iscrizioni alle squadre e accettare o rifiutare candidature.
 
-Completa = booleano | completa / non completa
+### Impianti Sportivi
 
-A_squadre = booleano | a squadre / singolo
+- **Registrazione Impianti**: Gli utenti possono registrare impianti sportivi specificando nome, indirizzo, telefono, email, latitudine e longitudine.
+- **Gestione Impianti**: Gli impianti possono essere assegnati agli eventi sportivi e possono essere verificati per disponibilità tramite trigger.
 
-Scadenza = date | limite in cui un utente può disiscriversi dalla squadra, dopo il limite deve indicare un sostituto
+### Valutazioni e Esiti
 
-Affidabile = booleano | affidabile / non affidabile
+- **Valutazioni**: Gli utenti possono effettuare valutazioni e ricevere valutazioni in base alla loro partecipazione agli eventi.
+- **Esiti**: Gli esiti degli eventi e dei tornei possono essere registrati e utilizzati per generare report.
 
-**Candidatura**
+### Funzioni e Trigger
 
-Solo chi ha un account premium e ha registrato la squadra può decidere se accettare o rifiutare una candidatura. Lo stesso vale per l’iscrizione agli eventi sportivi. Inoltre, chi possiede un account premium, ha la possibilità di inserire manualmente i componenti di una squadra.
+- **Funzioni**: Diverse funzioni PL/pgSQL sono utilizzate per calcolare valori specifici come il livello degli utenti e per gestire le iscrizioni alle squadre.
+- **Trigger**: Trigger PL/pgSQL sono utilizzati per garantire la consistenza dei dati, come la verifica della disponibilità degli impianti e il mantenimento dello stato degli eventi.
 
+## Installazione
+
+1. Clona il repository:
+    ```bash
+    git clone https://github.com/KintsuKayaba/UniGeSocialSport.git
+    ```
+2. Naviga nella directory del progetto:
+    ```bash
+    cd UniGeSocialSport
+    ```
